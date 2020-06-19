@@ -1,0 +1,35 @@
+.bg-header{
+  background-image: url(https://ak.picdn.net/shutterstock/videos/1036596767/thumb/1.jpg);
+  background-size: cover;
+  background-position-x: left;
+  background-position-y: bottom;
+  min-height: 55vh;
+}
+
+.bg-grandma-boss{
+  background-image: url(https://ih1.redbubble.net/image.1036951132.8931/flat,750x1000,075,f.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 55vh;
+}
+
+.text-shadow{
+  text-shadow: black 1px 0 10px;
+}
+
+.icon-center{
+  display: flex;
+}
+
+
+  .overflow-card{
+    display: flex;
+    justify-self: flex-end;
+    position: absolute;
+    min-height: 140%;
+    
+  }
+
+  .h-form-message{
+    min-height: 25%;
+  }
