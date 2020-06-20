@@ -1,9 +1,21 @@
 .bg-header{
   background-image: url(https://ak.picdn.net/shutterstock/videos/1036596767/thumb/1.jpg);
-  background-size: cover;
+  background-size:cover ;
   background-position-x: left;
   background-position-y: bottom;
   min-height: 55vh;
+}
+
+#vid-g-gun{
+  height: 100%;
+  width: 170vh;
+  min-width: 100%;
+  min-height: 57vw;
+  position: fixed;
+  top: -7em;
+  z-index: -1;
+  transform: scale(90%, 90vh);
+  
 }
 
 .bg-grandma-boss{
@@ -13,23 +25,47 @@
   min-height: 55vh;
 }
 
+.container-fluid{
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .text-shadow{
   text-shadow: black 1px 0 10px;
+}
+
+.text-g-granny{
+  font-family: 'Berkshire Swash', cursive;
 }
 
 .icon-center{
   display: flex;
 }
 
+.border-brick{
+  border-left: .75em solid blue!important;
+}
 
+
+.h-form-message{
+  min-height: 25%;
+}
+
+@media only screen and (max-width: 576px) {
+  .small-screen-hide{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 820px) {
   .overflow-card{
     display: flex;
     justify-self: flex-end;
     position: absolute;
     min-height: 140%;
+    margin-bottom: 1rem;
     
   }
-
-  .h-form-message{
-    min-height: 25%;
-  }
+    
+    }
+  
